@@ -1,0 +1,366 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP +12C
+K POWER, PWR
+$ENDCMP
+#
+$CMP +12L
+K POWER, PWR
+$ENDCMP
+#
+$CMP +12LF
+K POWER, PWR
+$ENDCMP
+#
+$CMP +12P
+K POWER, PWR
+$ENDCMP
+#
+$CMP +12V
+K POWER, PWR
+$ENDCMP
+#
+$CMP +12VA
+K POWER, PWR
+$ENDCMP
+#
+$CMP +15V
+K POWER, PWR
+$ENDCMP
+#
+$CMP +1V1
+K POWER, PWR
+$ENDCMP
+#
+$CMP +1V2
+K POWER, PWR
+$ENDCMP
+#
+$CMP +1V5
+K POWER, PWR
+$ENDCMP
+#
+$CMP +1V8
+K POWER, PWR
+$ENDCMP
+#
+$CMP +24V
+K POWER, PWR
+$ENDCMP
+#
+$CMP +2V5
+K POWER, PWR
+$ENDCMP
+#
+$CMP +3.3VA
+K POWER, PWR
+$ENDCMP
+#
+$CMP +36V
+K POWER, PWR
+$ENDCMP
+#
+$CMP +3V3
+K POWER, PWR
+$ENDCMP
+#
+$CMP +48V
+K POWER, PWR
+$ENDCMP
+#
+$CMP +5C
+K POWER, PWR
+$ENDCMP
+#
+$CMP +5F
+K POWER, PWR
+$ENDCMP
+#
+$CMP +5P
+K POWER, PWR
+$ENDCMP
+#
+$CMP +5V
+K POWER, PWR
+$ENDCMP
+#
+$CMP +5VA
+K POWER, PWR
+$ENDCMP
+#
+$CMP +5VD
+K POWER, PWR
+$ENDCMP
+#
+$CMP +5VL
+K POWER, PWR
+$ENDCMP
+#
+$CMP +5VP
+K POWER, PWR
+$ENDCMP
+#
+$CMP +6V
+K POWER, PWR
+$ENDCMP
+#
+$CMP +8V
+K POWER, PWR
+$ENDCMP
+#
+$CMP +9V
+K POWER, PWR
+$ENDCMP
+#
+$CMP +9VA
+K POWER, PWR
+$ENDCMP
+#
+$CMP +BATT
+K POWER, PWR
+$ENDCMP
+#
+$CMP -10V
+K POWER, PWR
+$ENDCMP
+#
+$CMP -12V
+K POWER, PWR
+$ENDCMP
+#
+$CMP -12VA
+K POWER, PWR
+$ENDCMP
+#
+$CMP -15V
+K POWER, PWR
+$ENDCMP
+#
+$CMP -24V
+K POWER, PWR
+$ENDCMP
+#
+$CMP -36V
+K POWER, PWR
+$ENDCMP
+#
+$CMP -48V
+K POWER, PWR
+$ENDCMP
+#
+$CMP -5V
+K POWER, PWR
+$ENDCMP
+#
+$CMP -5VA
+K POWER, PWR
+$ENDCMP
+#
+$CMP -6V
+K POWER, PWR
+$ENDCMP
+#
+$CMP -8V
+K POWER, PWR
+$ENDCMP
+#
+$CMP -9VA
+K POWER, PWR
+$ENDCMP
+#
+$CMP C
+D Unpolarized capacitor
+K cap capacitor
+$ENDCMP
+#
+$CMP CP
+D Polarised capacitor
+K cap capacitor
+$ENDCMP
+#
+$CMP D_Schottky
+D Schottky diode
+K diode Schottky
+$ENDCMP
+#
+$CMP D_Schottky_Small_ALT
+D Schottky diode, small symbol, alternativ symbol
+K diode schottky
+$ENDCMP
+#
+$CMP D_Zener
+D Zener Diode
+K diode
+F https://en.wikipedia.org/wiki/Zener_diode
+$ENDCMP
+#
+$CMP Earth
+D Ground
+K POWER, PWR, GND, GROUND
+$ENDCMP
+#
+$CMP Earth_Clean
+D Clean Earth
+K POWER, PWR, GND, GROUND, CLEAN, SIGNAL
+$ENDCMP
+#
+$CMP Earth_Protective
+D Protective Earth
+K POWER, PWR, EARTH, PROTECTIVE, GND, GROUND, PE
+$ENDCMP
+#
+$CMP Fuse
+D Fuse, generic
+K Fuse
+$ENDCMP
+#
+$CMP GND
+K POWER, PWR
+$ENDCMP
+#
+$CMP GNDA
+K POWER, PWR
+$ENDCMP
+#
+$CMP GNDD
+K POWER, PWR
+$ENDCMP
+#
+$CMP GNDPWR
+K POWER, PWR
+$ENDCMP
+#
+$CMP GNDREF
+K POWER, PWR
+$ENDCMP
+#
+$CMP LED
+D LED generic
+K led diode
+$ENDCMP
+#
+$CMP LM117K
+D 1,5A 35V Adjustable Linear Regulator, TO-3
+K Adjustable Voltage Regulator 1,5A Positive
+F http://www.national.com/ds/LM/LM117.pdf
+$ENDCMP
+#
+$CMP LM317K
+D 1.5A 35V Adjustable Linear Regulator, TO-3
+K Adjustable Voltage Regulator 1.5A Positive
+F http://www.national.com/ds/LM/LM117.pdf
+$ENDCMP
+#
+$CMP LM386
+D Low Voltage Audio Power Amp.
+K Audio Power OpAmp
+F http://www.ti.com/lit/ds/symlink/lm386.pdf
+$ENDCMP
+#
+$CMP MOC3031M
+D DIP6,  Zero Cross Opto-Triac, Vdrm 250V, Ift 15mA
+K Opto-Triac Opto Triac Zero Cross
+F http://www.fairchildsemi.com/ds/MO/MOC3031M.pdf
+$ENDCMP
+#
+$CMP MOC3032M
+D DIP6,  Zero Cross Opto-Triac, Vdrm 250V, Ift 10mA
+K Opto-Triac Opto Triac Zero Cross
+F http://www.fairchildsemi.com/ds/MO/MOC3031M.pdf
+$ENDCMP
+#
+$CMP MOC3033M
+D DIP6,  Zero Cross Opto-Triac, Vdrm 250V, Ift 5mA
+K Opto-Triac Opto Triac Zero Cross
+F http://www.fairchildsemi.com/ds/MO/MOC3031M.pdf
+$ENDCMP
+#
+$CMP MOC3041M
+D DIP6,  Zero Cross Opto-Triac, Vdrm 400V, Ift 15mA
+K Opto-Triac Opto Triac Zero Cross
+F http://www.fairchildsemi.com/ds/MO/MOC3031M.pdf
+$ENDCMP
+#
+$CMP MOC3042M
+D DIP6,  Zero Cross Opto-Triac, Vdrm 400V, Ift 10mA
+K Opto-Triac Opto Triac Zero Cross
+F http://www.fairchildsemi.com/ds/MO/MOC3031M.pdf
+$ENDCMP
+#
+$CMP MOC3043M
+D DIP6,  Zero Cross Opto-Triac, Vdrm 400V, Ift 5mA
+K Opto-Triac Opto Triac Zero Cross
+F http://www.fairchildsemi.com/ds/MO/MOC3031M.pdf
+$ENDCMP
+#
+$CMP POT
+D Potentionmeter
+K resistor variable
+$ENDCMP
+#
+$CMP Q_TRIAC_GAA
+D triode for alternating current (TRIAC)
+K triode for alternating current TRIAC
+$ENDCMP
+#
+$CMP R
+D Resistor
+K r res resistor
+$ENDCMP
+#
+$CMP Screw_Terminal_1x02
+D 2-pin screw terminal connector
+K screw terminal block
+$ENDCMP
+#
+$CMP Screw_Terminal_1x03
+D 3-pin screw terminal connector
+K screw terminal block
+$ENDCMP
+#
+$CMP Speaker
+D speaker 
+K speaker sound
+$ENDCMP
+#
+$CMP VAA
+K POWER, PWR
+$ENDCMP
+#
+$CMP VCC
+K POWER, PWR
+$ENDCMP
+#
+$CMP VCOM
+K POWER, PWR
+$ENDCMP
+#
+$CMP VDD
+K POWER, PWR
+$ENDCMP
+#
+$CMP VDDA
+K POWER, PWR
+$ENDCMP
+#
+$CMP VEE
+K POWER, PWR
+$ENDCMP
+#
+$CMP VMEM
+K POWER, PWR
+$ENDCMP
+#
+$CMP VPP
+K POWER, PWR
+$ENDCMP
+#
+$CMP VSS
+K POWER, PWR
+$ENDCMP
+#
+$CMP VSSA
+K POWER, PWR
+$ENDCMP
+#
+#End Doc Library

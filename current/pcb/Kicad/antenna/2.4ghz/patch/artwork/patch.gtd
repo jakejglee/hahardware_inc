@@ -1,0 +1,487 @@
+$Header
+$Program	GerbTool GT-Designer Service Release 3 (16.2.37)
+	Version	16.0
+	Created	Fri Apr 28 11:32:51 2017
+$End
+$Environment
+	SketchMode	No
+	OverlayMode	No
+	ShowErrors	No
+	ViewComposites	No
+	OrthoSnap	Yes
+	SnapAngle	45.0000
+	ActiveLayer	5
+	CurrentDcode	10
+	PreviousView	-1.556, 1.145, 1.573, 3.064
+	FilmBox	2.000, 2.110, 0xffff00
+	DesignID		0x55e756d6
+	UniqID		0x34
+	NetID		0
+	Flags		0
+	NetCompareOk		No
+	GenAutoDrills		No
+$End
+$Netlist
+	DrillLayer	1
+	WellBehaved	No
+	IncludeSinglePointNets	Yes
+	IgnoreSelectGroup	No
+	PreserveNetNames	No
+	GenByVersion	16.0
+	Clean		Yes
+	IsoPadsTagged	No
+$End
+$Views
+$End
+$TabViews
+$End
+$Layer	1
+	File		patch-F.Cu.gbr
+	LyrName	patch-F.Cu
+	Visibility	On
+	FlashColor	0xff
+	DrawColor	0xae
+	Type		Top
+	Polarity	Dark
+	Key		0
+	Extents	0.313, 0.000, 1.688, 1.801
+	ID		0x55e756d7
+	NetID		0
+	Virtual	0
+$End
+$Layer	2
+	File		patch-F.Mask.gbr
+	LyrName	patch-F.Mask
+	Visibility	On
+	FlashColor	0x80ff
+	DrawColor	0x57ae
+	Type		Mask Top
+	Polarity	Dark
+	Key		0
+	Extents	0.000, -0.003, 2.000, 2.101
+	ID		0x55e756d8
+	NetID		0
+	Virtual	0
+$End
+$Layer	3
+	File		patch-F.SilkS.gbr
+	LyrName	patch-F.SilkS
+	Visibility	On
+	FlashColor	0xffff
+	DrawColor	0xaeae
+	Type		Silk Top
+	Polarity	Dark
+	Key		0
+	Extents	1.109, 0.068, 1.211, 0.290
+	ID		0x55e756d9
+	NetID		0
+	Virtual	0
+$End
+$Layer	4
+	File		patch-B.Cu.gbr
+	LyrName	patch-B.Cu
+	Visibility	On
+	FlashColor	0xff00
+	DrawColor	0xae00
+	Type		Bottom
+	Polarity	Dark
+	Key		0
+	Extents	0.000, 0.000, 2.000, 2.101
+	ID		0x55e756da
+	NetID		0
+	Virtual	0
+$End
+$Layer	5
+	File		patch-B.Mask.gbr
+	LyrName	patch-B.Mask
+	Visibility	On
+	FlashColor	0xffff00
+	DrawColor	0xc4c400
+	Type		Mask Bot
+	Polarity	Dark
+	Key		0
+	Extents	0.639, -0.003, 1.086, 0.258
+	ID		0x55e756db
+	NetID		0
+	Virtual	0
+$End
+$Layer	7
+	File		patch-Margin.gbr
+	LyrName	patch-Margin
+	Visibility	On
+	FlashColor	0xff00ff
+	DrawColor	0xae00ae
+	Type		Drawing
+	Polarity	Dark
+	Key		0
+	Extents	-0.004, -0.004, 2.004, 2.104
+	ID		0x55e756dc
+	NetID		0
+	Virtual	0
+$End
+$LayerSets
+$End
+$ExportHPGL
+	OutFile	patch.plt
+	MediaSize	34.000, 22.000
+	Offset		0.000, 0.000
+	Scale		1.0000
+	Border	No 0
+	PenWidth	0.010
+	PenSpeed	60
+	$Pens
+		Layer 1	1	1
+		Layer 2	1	1
+		Layer 3	1	1
+		Layer 4	1	1
+		Layer 5	1	1
+		Layer 7	1	1
+	$End
+	Spread	No
+	$SpreadOffset
+	$End
+	PadsOnly	No
+	Mode		Sketch
+	Rotate		No
+$End
+$ExportPostScript
+	OutFile	patch.ps
+	MediaSize	8.000, 10.500
+	Offset		0.000, 0.000
+	Scale		1.0000
+	PadsOnly	No
+	Mode		Sketch
+	Rotate		No
+	GreyScale	No
+	Border	No
+$End
+$ImportHPGL
+	PlotSize	Large
+	Rotate		No
+	$PenSizes
+		1	0.0100
+		2	0.0110
+		3	0.0120
+		4	0.0130
+		5	0.0140
+		6	0.0150
+		7	0.0160
+		8	0.0170
+	$End
+$End
+$Text
+	Filename	patch.txt
+	Height		0.1000
+	Width		0.1000
+	LineSpace	1.0000
+	CharSpace	1.0000
+	Rotate		0
+	Slant		0
+	Mirror		No
+$End
+$ApReport
+	RepFile	patch.txt
+	Layer		1
+$End
+$Rotate
+	Degrees	0.00
+	Pivot		Center
+$End
+$Mirror
+	Direction	Horz
+	Pivot		Center
+$End
+$DcodeScale
+	Fixed		No
+	Scale		0.1000, 0.1000
+$End
+$Panelize
+	Panel 0 0 1 1 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0 0.0000 0.0000 0.0000 0 0
+$End
+$Spread
+	AutoSpread		No
+	Rows			1
+	Cols			1
+	TabSize		0.0000, 0.0000
+	Layer			0
+	SortType		Col
+$End
+$Analysis
+	$Setup
+		HiliLayer		0
+		IgnoreSelGrp	Yes
+		WellBehaved		No
+		WindowMode		No
+		MaxErrors		100
+		$Pass
+			Name		"DEFAULT"
+			DrillLayer		0
+			Enabled		Yes
+		$End
+	$End
+	NextErrorId	1
+$End
+$HoleCharts
+$End
+$Snoman
+	RepFile		patch.sno
+	FromLayer		All
+	ToLayer		0
+	DCode		All
+	Pad2Pad		0.0060
+	Pad2Trace		0.0060
+	Offset			-0.0050
+	MinPercent		0.6000
+	MaxPercent		0.8000
+	WindowMode		No
+$End
+$Teardrop
+	RepFile		patch.txt
+	Layer		All
+	DCode		All
+	Pad2Trace		0.0060
+	Trace2Trace		0.0060
+	HostOffsetPercent			0.1500
+	TeeLength		0.5000
+	TeeWidth		0.5000
+	WindowMode		No
+	DeleteExisting		No
+$End
+$Drill
+	OutFile	patch.drl
+	RepFile	patch.txt
+	Layer		1
+	PreDrill	0.250
+	WindowMode	No
+	NextFirstDrillSequence	998
+	NextLastDrillSequence	1000
+$End
+$Mill
+	Tool		3
+	ConvArcs	Yes
+	Compensate	Yes
+	SkipSlots	Yes
+	Mode		Auto
+	PlungeLength	0.1000
+	PlungeAngle	0
+	OverShoot	0.1000
+	DblPath	No
+	Plunge	red
+	Retract	red
+$End
+$FixSS
+	PadLayer	0
+	SilkLayer	0
+	WindowMode	No
+	Spacing	0.0100
+$End
+$PadRemoval
+	WindowMode	No
+	Layer		All
+	DCode		All
+$End
+$Highlights
+	Query		white
+	Select		white
+	DRC		white
+$End
+$EndHeader
+$NCToolTables
+$End
+$CustomApertureData
+$End
+$ApertureData
+21
+# Dcode  Shape  Width  Height  Type  Rotation  Mirror  NegDrawMode Properties
+#
+D10 	Round	9ec	9ec	ThruHole	0	N	Transparent	9ec
+D11 	Rectangle	37e88	7c060	SMT	0	N	Transparent	37e88 7c060 1 0 0
+D12 	Rectangle	354a94	2e8240	SMT	0	N	Transparent	354a94 2e8240 1 0 0
+D13 	Round	c670	c670	ThruHole	0	N	Transparent	c670
+D14 	Rectangle	3ba10	7fbe8	SMT	0	N	Transparent	3ba10 7fbe8 1 0 0
+D15 	Round	1dc4	1dc4	ThruHole	0	N	Transparent	1dc4
+D16 	Round	3a98	3a98	ThruHole	0	N	Transparent	3a98
+D17 	Rectangle	3b150	9e340	SMT	0	N	Transparent	3b150 9e340 1 0 0
+D18 	Rectangle	4d83c0	45c360	SMT	0	N	Transparent	4d83c0 45c360 1 0 0
+D19 	Round	3b88	3b88	ThruHole	0	N	Transparent	3b88
+D20 	Rectangle	3ecd8	a1ec8	SMT	0	N	Transparent	3ecd8 a1ec8 1 0 0
+D21 	Round	4e20	4e20	ThruHole	0	N	Transparent	4e20
+$End
+$StringTable
+7
+"$$UID"
+"$$UD"
+"$$EXNET_PADSIZE"
+"$$EXNET_LAYER"
+"$$HCHID"
+"$$HCUID"
+"$$HCTOOLNUMBER"
+$End
+$UserDefinedProperties
+$End
+$PanelData
+$End
+$Blocks
+$End
+$LayerData
+L1
+I0
+N0
+F0
+C" #@! TF.FileFunction,Copper,L1,Top,Signal"
+C" Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)"
+C" Created by KiCad (PCBNEW 4.0.5) date 04/28/17 11:21:04"
+C" APERTURE LIST"
+C" APERTURE END LIST"
+A11
+D1
+216d9e 3e300
+A12
+26c1e0 2e8736
+A13
+D2
+216d9e 3e300 216d9e 2932f4
+216d9e 2932f4 26c1e0 2e8736
+216d9e 2932f4 26c1e0 2e8736
+L2
+I0
+N0
+F0
+C" #@! TF.FileFunction,Soldermask,Top"
+C" Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)"
+C" Created by KiCad (PCBNEW 4.0.5) date 04/28/17 11:21:04"
+C" APERTURE LIST"
+C" APERTURE END LIST"
+A14
+D1
+216d9e 3e300
+A15
+D4
+5 1 0
+ee2 515a04 N
+ee2 ee2 N
+4d74de ee2 N
+4d74de 515a04 N
+ee2 515a04 N
+D2
+4d74de ee2 ee2 ee2
+ee2 ee2 ee2 515a04
+ee2 515a04 4d74de 515a04
+4d74de 515a04 4d74de ee2
+L3
+I0
+N0
+F0
+C" #@! TF.FileFunction,Legend,Top"
+C" Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)"
+C" Created by KiCad (PCBNEW 4.0.5) date 04/28/17 11:21:04"
+C" APERTURE LIST"
+C" APERTURE END LIST"
+A16
+D2
+2cf7ac 2c2af 2b710c 2c2af
+2b710c 2c2af 2b710c 3577e
+2b710c 3577e 2b83a6 37cb2
+2b83a6 37cb2 2b9640 38f4b
+2b9640 38f4b 2bbb74 3a1e5
+2bbb74 3a1e5 2bf341 3a1e5
+2bf341 3a1e5 2c1875 38f4b
+2c1875 38f4b 2c2b0f 37cb2
+2c2b0f 37cb2 2c3da9 3577e
+2c3da9 3577e 2c3da9 2c2af
+2cf7ac 515ec 2cf7ac 436b5
+2cf7ac 4a650 2b710c 4a650
+2b710c 4a650 2ba8da 4811c
+2ba8da 4811c 2bce0e 45be8
+2bce0e 45be8 2be0a8 436b5
+2b417d a0927 2bfb80 a0927
+2b1c4a 9998c 2b9e7f b202c
+2b9e7f b202c 2c20b4 9998c
+2ca2ea a6629 2d251f a6629
+2d5ced 9998c 2ca2ea 9998c
+2ca2ea 9998c 2ca2ea b202c
+2ca2ea b202c 2d5ced b202c
+2ed0f3 9998c 2df1bc 9998c
+2e6157 9998c 2e6157 b202c
+2e6157 b202c 2e3c23 ae85e
+2e3c23 ae85e 2e16f0 ac32a
+2e16f0 ac32a 2df1bc ab091
+L4
+I0
+N0
+F0
+C" #@! TF.FileFunction,Copper,L2,Bot,Signal"
+C" Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)"
+C" Created by KiCad (PCBNEW 4.0.5) date 04/28/17 11:21:04"
+C" APERTURE LIST"
+C" APERTURE END LIST"
+A17
+D1
+1abeae 4f470
+281c8e 4f470
+A18
+26c1e0 2e8736
+A19
+D4
+5 1 0
+1dc4 514b22 N
+1dc4 1dc4 N
+4d65fc 1dc4 N
+4d65fc 514b22 N
+1dc4 514b22 N
+D2
+4d65fc 1dc4 1dc4 1dc4
+1dc4 1dc4 1dc4 514b22
+1dc4 514b22 4d65fc 514b22
+4d65fc 514b22 4d65fc 1dc4
+L5
+I0
+N0
+F0
+C" #@! TF.FileFunction,Soldermask,Bot"
+C" Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)"
+C" Created by KiCad (PCBNEW 4.0.5) date 04/28/17 11:21:04"
+C" APERTURE LIST"
+C" APERTURE END LIST"
+A20
+D1
+1abeae 4f470
+281c8e 4f470
+L7
+I0
+N0
+F0
+C" #@! TF.FileFunction,Legend,Bot"
+C" Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)"
+C" Created by KiCad (PCBNEW 4.0.5) date 04/28/17 11:21:04"
+C" APERTURE LIST"
+C" APERTURE END LIST"
+C" #@! TF.FileFunction,Other,User"
+C" Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)"
+C" Created by KiCad (PCBNEW 4.0.5) date 04/28/17 11:31:22"
+C" APERTURE LIST"
+C" APERTURE END LIST"
+A21
+D2
+4d83c0 5168e6 0 5168e6
+4d83c0 0 4d83c0 5168e6
+0 0 4d83c0 0
+0 5168e6 0 0
+$End
+$Dimensions
+0
+$End
+$Redlining
+$End
+$ConstructionLines
+0
+$End
+$NoteBalloons
+0
+$End
+$ExternalNetData
+$End
+$NCOrderLists
+$End
+$NetList
+$End

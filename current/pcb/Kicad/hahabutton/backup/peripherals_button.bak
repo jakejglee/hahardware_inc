@@ -1,0 +1,291 @@
+EESchema Schematic File Version 2
+LIBS:button-rescue
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:coin_cells
+LIBS:misc
+LIBS:uCs
+LIBS:button-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L R R14
+U 1 1 590D5BED
+P 2700 2650
+F 0 "R14" H 2850 2600 50  0000 C CNN
+F 1 "100" V 2700 2650 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402" V 2630 2650 50  0001 C CNN
+F 3 "" H 2700 2650 50  0001 C CNN
+	1    2700 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C18
+U 1 1 590D5C38
+P 2700 1950
+F 0 "C18" H 2850 1900 50  0000 L CNN
+F 1 "1uF" H 2850 1800 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 2738 1800 50  0001 C CNN
+F 3 "" H 2700 1950 50  0001 C CNN
+	1    2700 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2700 1550 2700 1800
+Wire Wire Line
+	2700 2100 2700 2500
+$Comp
+L LED D2
+U 1 1 590D5EAD
+P 7650 1700
+F 0 "D2" V 7600 1950 50  0000 C CNN
+F 1 "LED (Green-2)" V 7700 2150 50  0000 C CNN
+F 2 "LEDs:LED_0402" H 7650 1700 50  0001 C CNN
+F 3 "" H 7650 1700 50  0001 C CNN
+	1    7650 1700
+	0    -1   -1   0   
+$EndComp
+Text HLabel 7500 1450 0    30   Input ~ 0
+LED
+Text HLabel 1300 2450 0    30   Output ~ 0
+BUTTON
+$Comp
+L CP C19
+U 1 1 59108CA4
+P 1550 5700
+F 0 "C19" H 1700 5750 50  0000 L CNN
+F 1 "1uF" H 1700 5650 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 1588 5550 50  0001 C CNN
+F 3 "" H 1550 5700 50  0001 C CNN
+	1    1550 5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1550 5450 1550 5550
+Wire Wire Line
+	1550 5850 1550 5950
+Connection ~ 1550 5900
+$Comp
+L GND #PWR024
+U 1 1 59016561
+P 7650 2250
+F 0 "#PWR024" H 7650 2000 50  0001 C CNN
+F 1 "GND" H 7650 2100 50  0000 C CNN
+F 2 "" H 7650 2250 50  0001 C CNN
+F 3 "" H 7650 2250 50  0001 C CNN
+	1    7650 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR025
+U 1 1 59016756
+P 1550 5950
+F 0 "#PWR025" H 1550 5700 50  0001 C CNN
+F 1 "GND" H 1550 5800 50  0000 C CNN
+F 2 "" H 1550 5950 50  0001 C CNN
+F 3 "" H 1550 5950 50  0001 C CNN
+	1    1550 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR026
+U 1 1 59016919
+P 1550 5100
+F 0 "#PWR026" H 1550 4950 50  0001 C CNN
+F 1 "+3.3V" H 1550 5240 50  0000 C CNN
+F 2 "" H 1550 5100 50  0001 C CNN
+F 3 "" H 1550 5100 50  0001 C CNN
+	1    1550 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_Schottky D3
+U 1 1 590E1CA1
+P 1550 5300
+F 0 "D3" V 1450 5500 50  0000 C CNN
+F 1 "Power thru Battery" V 1550 5800 50  0000 C CNN
+F 2 "Diodes_SMD:D_0603" H 1550 5300 50  0001 C CNN
+F 3 "" H 1550 5300 50  0001 C CNN
+	1    1550 5300
+	0    1    1    0   
+$EndComp
+$Comp
+L pb_v2 PB1
+U 1 1 592303EC
+P 2050 1950
+F 0 "PB1" H 1800 1550 60  0000 C CNN
+F 1 "pb_v2" H 2350 1550 60  0000 C CNN
+F 2 "Buttons_Switches_THT:SW_PUSH_6mm" H 2050 1950 60  0001 C CNN
+F 3 "" H 2050 1950 60  0001 C CNN
+	1    2050 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1300 2450 2700 2450
+Connection ~ 2700 2450
+Wire Wire Line
+	1400 2250 1450 2250
+$Comp
+L R R15
+U 1 1 590D5F48
+P 7650 2050
+F 0 "R15" H 7800 2000 50  0000 C CNN
+F 1 "50" V 7650 2050 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402" V 7580 2050 50  0001 C CNN
+F 3 "" H 7650 2050 50  0001 C CNN
+	1    7650 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7500 1450 7650 1450
+Wire Wire Line
+	7650 2250 7650 2200
+Wire Wire Line
+	7650 1850 7650 1900
+Wire Wire Line
+	7650 1450 7650 1550
+Wire Wire Line
+	1550 5150 1550 5100
+Connection ~ 1400 2450
+Wire Wire Line
+	1450 1700 1400 1700
+Wire Wire Line
+	1400 1700 1400 1600
+Wire Wire Line
+	1400 1600 2700 1600
+Text Notes 2800 6150 0    60   ~ 0
+**BATTERY\n     + C = dQ/dV\n     - Schottky prevents reverse charging into battery
+Text Notes 7850 2050 0    60   ~ 0
+**LED INDICATOR\n     - Requires 1mA min, sourced by uC GPIO pin\n     - Use roughly 10mA to start (bright)\n     * Blinks once slowly for a registered button press\n     * Blinks 3 times quickly for a received signal\n     * Blinks periodically while request is propagated
+Connection ~ 2700 1600
+Wire Wire Line
+	2700 2800 2700 2850
+Connection ~ 1550 5500
+$Comp
+L CP C25
+U 1 1 5933A6A7
+P 2500 5700
+F 0 "C25" H 2650 5750 50  0000 L CNN
+F 1 "1uF" H 2650 5650 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 2538 5550 50  0001 C CNN
+F 3 "" H 2500 5700 50  0001 C CNN
+	1    2500 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_Schottky D4
+U 1 1 5933A6F4
+P 2500 5300
+F 0 "D4" V 2400 5450 50  0000 C CNN
+F 1 "Power thru Battery" V 2500 5750 50  0000 C CNN
+F 2 "Diodes_SMD:D_0603" H 2500 5300 50  0001 C CNN
+F 3 "" H 2500 5300 50  0001 C CNN
+	1    2500 5300
+	0    1    1    0   
+$EndComp
+$Comp
+L Battery_cc3035-RESCUE-button BT1
+U 1 1 5933BCAE
+P 2050 5700
+F 0 "BT1" H 2150 5800 50  0000 L CNN
+F 1 "Battery_cc3035" H 1850 5000 50  0000 L CNN
+F 2 "Batteries:batt_holder3035" V 2050 5760 50  0001 C CNN
+F 3 "" V 2050 5760 50  0001 C CNN
+	1    2050 5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1550 5900 2500 5900
+Wire Wire Line
+	2500 5900 2500 5850
+Connection ~ 2050 5900
+Wire Wire Line
+	2500 5550 2500 5450
+Wire Wire Line
+	2100 5500 2500 5500
+Connection ~ 2500 5500
+Wire Wire Line
+	2000 5500 1550 5500
+Wire Wire Line
+	2500 5150 2500 5100
+Wire Wire Line
+	2500 5100 1550 5100
+$Comp
+L +3.3V #PWR027
+U 1 1 59449424
+P 2700 1200
+F 0 "#PWR027" H 2700 1050 50  0001 C CNN
+F 1 "+3.3V" H 2700 1340 50  0000 C CNN
+F 2 "" H 2700 1200 50  0001 C CNN
+F 3 "" H 2700 1200 50  0001 C CNN
+	1    2700 1200
+	1    0    0    -1  
+$EndComp
+Text Notes 3300 2100 0    60   ~ 0
+**BUTTON FUNCTIONALITY:\n     - When unpressed, button outputs LOW (0V) to uC\n     - When pressed, VSRC drives LED; ~2.8V measured\n             by uC [limited to ~1mA w/ 1.2V drop across LED]\n     - When released, charge drains through pulldown resistor
+Wire Wire Line
+	1400 2450 1400 2250
+$Comp
+L GND #PWR028
+U 1 1 596D8699
+P 2700 2850
+F 0 "#PWR028" H 2700 2600 50  0001 C CNN
+F 1 "GND" H 2700 2700 50  0000 C CNN
+F 2 "" H 2700 2850 50  0001 C CNN
+F 3 "" H 2700 2850 50  0001 C CNN
+	1    2700 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R5
+U 1 1 596E6FD2
+P 2700 1400
+F 0 "R5" H 2850 1350 50  0000 C CNN
+F 1 "100k" V 2700 1400 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402" V 2630 1400 50  0001 C CNN
+F 3 "" H 2700 1400 50  0001 C CNN
+	1    2700 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2700 1200 2700 1250
+$EndSCHEMATC

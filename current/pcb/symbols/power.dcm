@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Screw_Terminal_1x02
+D 2-pin screw terminal connector
+K screw terminal block
+$ENDCMP
+#
+#End Doc Library
