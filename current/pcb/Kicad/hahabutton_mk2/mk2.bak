@@ -32,6 +32,8 @@ LIBS:valves
 LIBS:rf_transceivers
 LIBS:displays
 LIBS:coin_cells
+LIBS:button
+LIBS:misc
 LIBS:mk2-cache
 EELAYER 25 0
 EELAYER END
@@ -754,17 +756,54 @@ F 3 "" H 4850 3250 50  0000 C CNN
 	1    4850 3250
 	1    0    0    -1  
 $EndComp
-Text Label 8100 2750 2    60   ~ 0
+Text Label 8600 2400 1    60   ~ 0
 +3.0V
 $Comp
 L Battery_Cell BT?
-U 1 1 5A428AFA
-P 8500 3000
-F 0 "BT?" H 8600 3100 50  0000 L CNN
-F 1 "Battery_Cell" H 8600 3000 50  0000 L CNN
-F 2 "" V 8500 3060 50  0000 C CNN
-F 3 "" V 8500 3060 50  0000 C CNN
-	1    8500 3000
+U 1 1 5A4290BB
+P 8600 2900
+F 0 "BT?" H 8700 3000 50  0000 L CNN
+F 1 "Battery_Cell" H 8700 2900 50  0000 L CNN
+F 2 "" V 8600 2960 50  0000 C CNN
+F 3 "" V 8600 2960 50  0000 C CNN
+	1    8600 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_Schottky D?
+U 1 1 5A4291B5
+P 8600 2550
+F 0 "D?" V 8650 2100 50  0000 C CNN
+F 1 "D_Schottky" V 8550 2250 50  0000 C CNN
+F 2 "" H 8600 2550 50  0000 C CNN
+F 3 "" H 8600 2550 50  0000 C CNN
+	1    8600 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L CP C?
+U 1 1 5A429414
+P 9300 2850
+F 0 "C?" H 9325 2950 50  0000 L CNN
+F 1 "CP" H 9325 2750 50  0000 L CNN
+F 2 "" H 9338 2700 50  0000 C CNN
+F 3 "" H 9300 2850 50  0000 C CNN
+	1    9300 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8600 2700 9300 2700
+Wire Wire Line
+	9300 3000 8600 3000
+$Comp
+L GND #PWR?
+U 1 1 5A42961E
+P 8600 3000
+F 0 "#PWR?" H 8600 2750 50  0001 C CNN
+F 1 "GND" H 8600 2875 50  0000 C CNN
+F 2 "" H 8600 3000 50  0000 C CNN
+F 3 "" H 8600 3000 50  0000 C CNN
+	1    8600 3000
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
