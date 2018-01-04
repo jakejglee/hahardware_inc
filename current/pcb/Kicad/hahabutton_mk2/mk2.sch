@@ -478,17 +478,6 @@ F 3 "" H 2300 3800 50  0000 C CNN
 $EndComp
 Text Notes 5750 2075 0    60   ~ 0
 LP_GPIO_3, 4, 5, 22, 23 configured\nwith internal pull-up resistors.\nAll other GPIOs configured\nwith internal pull-down resistors.
-$Comp
-L CONN_02X10 H1
-U 1 1 58BBB586
-P 6475 4975
-F 0 "H1" H 6475 5525 50  0000 C CNN
-F 1 "J-Link SWD" V 6475 4975 50  0000 C CNN
-F 2 "Misc:Socket_Strip_Straight_2x10_Pitch2.54mm_Drill0.889mm" H 6475 3775 50  0001 C CNN
-F 3 "" H 6475 3775 50  0000 C CNN
-	1    6475 4975
-	1    0    0    -1  
-$EndComp
 Text Label 6000 4825 0    30   ~ 0
 SWDIO
 Text Label 5975 4925 0    30   ~ 0
@@ -764,7 +753,7 @@ U 1 1 5A4290BB
 P 7100 3450
 F 0 "BT1" H 7200 3550 50  0000 L CNN
 F 1 "Battery_Cell" H 7200 3450 50  0000 L CNN
-F 2 "" V 7100 3510 50  0000 C CNN
+F 2 "Batteries:batt_holder3035" H 7100 3510 50  0001 C CNN
 F 3 "" V 7100 3510 50  0000 C CNN
 	1    7100 3450
 	1    0    0    -1  
@@ -775,7 +764,7 @@ U 1 1 5A4291B5
 P 7100 3100
 F 0 "D2" V 7150 2650 50  0000 C CNN
 F 1 "D_Schottky" V 7050 2800 50  0000 C CNN
-F 2 "" H 7100 3100 50  0000 C CNN
+F 2 "Diodes:D_0402_1005Metric" H 7100 3100 50  0001 C CNN
 F 3 "" H 7100 3100 50  0000 C CNN
 	1    7100 3100
 	0    1    1    0   
@@ -806,4 +795,19 @@ F 3 "" H 7100 3550 50  0000 C CNN
 	1    7100 3550
 	1    0    0    -1  
 $EndComp
+$Comp
+L CONN_02X10 H1
+U 1 1 58BBB586
+P 6475 4975
+F 0 "H1" H 6475 5525 50  0000 C CNN
+F 1 "J-Link SWD" V 6475 4975 50  0000 C CNN
+F 2 "Misc:Socket_Strip_Straight_2x10_Pitch2.54mm_Drill0.889mm" H 6475 3775 50  0001 C CNN
+F 3 "" H 6475 3775 50  0000 C CNN
+	1    6475 4975
+	1    0    0    -1  
+$EndComp
+Text Notes 6400 4300 0    30   ~ 0
+** Place SWD connector on seperate [removeable] module?
+Wire Wire Line
+	1450 2500 1350 2500
 $EndSCHEMATC
