@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:/Yggdrasil/Jotunheimr/hahardware_inc/current/pcb/Kicad/hahabutton_mk2/mk2.sch)
-    (date "1/3/2018 5:56:10 PM")
+    (date "1/13/2018 01:44:53 PM")
     (tool "Eeschema 4.0.5")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -426,12 +426,12 @@
         (pin (num 48) (name VDD_SXDIG) (type power_in))
         (pin (num 49) (name GND) (type power_in)))))
   (libraries
+    (library (logical base-rescue)
+      (uri base-rescue.lib))
     (library (logical device)
       (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\device.lib"))
     (library (logical conn)
-      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\conn.lib"))
-    (library (logical base-rescue)
-      (uri C:\Yggdrasil\Jotunheimr\hahardware_inc\current\pcb\Kicad\hahabutton_mk2\base-rescue.lib)))
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\conn.lib")))
   (nets
     (net (code 1) (name GND)
       (node (ref C10) (pin 2))

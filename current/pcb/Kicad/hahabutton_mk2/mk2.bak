@@ -806,4 +806,8 @@ F 3 "" H 6475 3775 50  0000 C CNN
 	1    6475 4975
 	1    0    0    -1  
 $EndComp
+Text Notes 6400 4300 0    30   ~ 0
+** Place SWD connector on seperate [removeable] module?
+Wire Wire Line
+	1450 2500 1350 2500
 $EndSCHEMATC

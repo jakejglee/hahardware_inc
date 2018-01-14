@@ -1,11 +1,9 @@
-update=12/25/2017 8:40:30 PM
+update=1/13/2018 08:30:30 PM
 version=1
 last_client=kicad
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
@@ -74,3 +72,5 @@ LibName32=displays
 LibName33=coin_cells
 LibName34=button
 LibName35=misc
+[general]
+version=1
